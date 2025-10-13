@@ -17,3 +17,11 @@ setup:
 
 .PHONY: prepublishOnly
 prepublishOnly: lint
+
+.PHONY: clean
+clean:
+	# No-op for this repo.
+
+.PHONY: reset
+reset: clean
+	rm -rf ./node_modules
