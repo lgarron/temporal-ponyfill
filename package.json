@@ -13,5 +13,12 @@
   },
   "dependencies": {
     "temporal-polyfill": "^0.3.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
+    "@cubing/dev-config": "^0.3.6"
+  },
+  "scripts": {
+    "prepublishOnly": "make prepublishOnly"
   }
 }
