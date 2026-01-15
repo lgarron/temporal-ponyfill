@@ -1,7 +1,7 @@
 {
   "name": "temporal-ponyfill",
   "author": "Lucas Garron <code@garron.net>",
-  "version": "0.1.1",
+  "version": "0.1.2-dev",
   "type": "module",
   "main": "./Temporal.js",
   "types": "./Temporal.d.ts",
