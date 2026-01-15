@@ -1,1 +1,5 @@
-export * from "temporal-polyfill";
+export {
+  Intl,
+  Temporal,
+  toTemporalInstant,
+} from "temporal-polyfill";
