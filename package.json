@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
-    "@cubing/dev-config": "^0.3.6"
+    "@cubing/dev-config": ">=0.9.0"
   },
   "scripts": {
     "prepublishOnly": "make prepublishOnly"
