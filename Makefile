@@ -4,12 +4,12 @@ publish:
 
 .PHONY: lint
 lint: setup
-	bun x @biomejs/biome check
-	bun x tsc --project .
+	bun x -- bun-dx --package @biomejs/biome biome -- check
+	bun x -- bun-dx --package typescript tsc -- --project .
 
 .PHONY: format
 format: setup
-	bun x @biomejs/biome check --write
+	bun x -- bun-dx --package @biomejs/biome biome -- check --write
 
 .PHONY: setup
 setup:

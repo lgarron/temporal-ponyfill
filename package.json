@@ -16,7 +16,9 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
-    "@cubing/dev-config": ">=0.9.0"
+    "@cubing/dev-config": ">=0.9.0",
+    "bun-dx": "^0.1.4",
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "prepublishOnly": "make prepublishOnly"
